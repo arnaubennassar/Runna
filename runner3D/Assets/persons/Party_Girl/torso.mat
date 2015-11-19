@@ -1,0 +1,14 @@
+MadeOf Wood
+
+PhongEnvironment
+{
+	DiffuseMap C:/Users/Luis/Desktop/characters/partygirl/models/partygirltorso_d.tga
+	NormalMap C:/Users/Luis/Desktop/characters/partygirl/models/partygirltorso_n.tga
+	SpecularMap C:/Users/Luis/Desktop/characters/partygirl/models/partygirltorso_s.tga
+	UseSpecular
+	SpecularExponent 14.8256
+	SpecularColor 1 1 1
+	SpecularIntensity 0.417044
+	Fresnel 0.41973
+}
+
