@@ -5,12 +5,13 @@ using System.IO;
 
 public class snakeWGenerator : MonoBehaviour {
 
-	public float radi, varRadi, longi, varLongi, pCorba, pSalt, factVarNormal;
+	public float radi, varRadi, longi, varLongi, pCorba, dSalt, pSalt, factVarNormal;
 	public int nPunts, angPla, nSegments, maxPendent; 
 	public Vector3 origen, normalOrigen;
 	public GameObject terra;
 	private ground gScript;
 
+	bool prevSalt = false;
 	List<Vector3> vertexList; // Vertex list
 	List<Vector2> uvList; // UV list
 	List<int> triangleList; // Triangle list
@@ -38,6 +39,7 @@ public class snakeWGenerator : MonoBehaviour {
 	}
 
 	public void addSegment (){
+		bool isSalt = false;
 		var offset = Vector3.zero;
 		var texCoord = new Vector2(0f, texCoordV);
 		var textureStepU = 1f / (nPunts);
@@ -47,9 +49,17 @@ public class snakeWGenerator : MonoBehaviour {
 		Vector3 xo, yo, xf, yf;
 		xf = new Vector3 ();
 		yf = new Vector3 ();
+
 		//init segment
 			//init longitud
-		buffSegments[aux].length = Random.Range(longi - varLongi, longi + varLongi);
+		if (pSalt >= Random.Range (0.0f, 1.0f) && prevSalt == false) {
+			isSalt = true;
+			prevSalt = true;
+			buffSegments [aux].length = dSalt;
+		} else {
+			buffSegments [aux].length = Random.Range (longi - varLongi, longi + varLongi);
+			prevSalt = false;
+		}
 		var r = radi;//Random.Range(radi - varRadi, radi + varRadi);
 		texCoordV += 0.0625f * (buffSegments[aux].length + buffSegments[aux].length / r);
 			//init llesca origen
@@ -64,6 +74,7 @@ public class snakeWGenerator : MonoBehaviour {
 		if (qaux.eulerAngles.x > 90 + maxPendent) angleAux.x = 90 + maxPendent;
 		else if (qaux.eulerAngles.x < 90 - maxPendent) angleAux.x = 90 - maxPendent;
 		else angleAux.x = qaux.eulerAngles.x;
+	//	if (isSalt)	angleAux.x = -maxPendent;
 		qaux.eulerAngles = angleAux;
 		buffSegments[aux].desti.normal = qaux;
 		buffSegments[aux].desti.centre = buffSegments[aux].origen.centre + buffSegments[aux].origen.normal * new Vector3(0f, buffSegments[aux].length, 0f);
@@ -71,13 +82,54 @@ public class snakeWGenerator : MonoBehaviour {
 		ang = ((270 + angPla/2)*Mathf.PI)/(180);
 		for (var n = 0; n <= nPunts-1 /*- 1*/; n++, ang += angInc) //afegir vertex anell node
 		{
-
-
 				offset.x = r * Mathf.Cos(ang); // Get X, Z vertex offsets
 				offset.z = r * Mathf.Sin(ang);
 				vertexList.Add(buffSegments[aux].desti.centre + buffSegments[aux].origen.normal * offset); // Add Vertex position
-				uvList.Add(texCoord); // Add UV coord
+			if(!isSalt){
+				uvList.Add(texCoord);
 				texCoord.x += textureStepU;
+			} // Add UV coord
+			else uvList.Add(new Vector2(0,0));
+			if (n == 0) xf = (buffSegments[aux].desti.centre + buffSegments[aux].origen.normal * offset);	
+			else if(n == nPunts-1){
+				yf = (buffSegments[aux].desti.centre + buffSegments[aux].origen.normal * offset);
+				ang = ((270 + angPla/2)*Mathf.PI)/(180);
+				offset.x = r * Mathf.Cos(ang); // Get X, Z vertex offsets
+				offset.z = r * Mathf.Sin(ang);
+				vertexList.Add(buffSegments[aux].desti.centre + buffSegments[aux].origen.normal * offset); // Add Vertex position
+				if(!isSalt){
+					uvList.Add(texCoord);
+					texCoord.x += textureStepU;
+				} // Add UV coord
+				else uvList.Add(new Vector2(0,0));
+			}
+
+		}
+
+		if (!isSalt) {
+			for (var currentRingVertexIndex = vertexList.Count - nPunts - 1; currentRingVertexIndex < vertexList.Count - 1; currentRingVertexIndex++, lastRingVertexIndex++) {
+				triangleList.Add (lastRingVertexIndex + 1); // Triangle A
+				triangleList.Add (lastRingVertexIndex);
+				triangleList.Add (currentRingVertexIndex);
+				triangleList.Add (currentRingVertexIndex); // Triangle B
+				triangleList.Add (currentRingVertexIndex + 1);
+				triangleList.Add (lastRingVertexIndex + 1);
+			}
+		} else {
+			int current = vertexList.Count - nPunts - 1;
+			for (int i = 0; i < nPunts; ++i) {
+				triangleList.Add (current + i); // Triangle A
+				triangleList.Add (current + (i+1)%nPunts);
+				triangleList.Add (current + (i+nPunts/2)%nPunts);
+			}
+			ang = ((270 + angPla/2)*Mathf.PI)/(180);
+			for (var n = 0; n <= nPunts-1 /*- 1*/; n++, ang += angInc) //afegir vertex anell node
+			{
+				offset.x = r * Mathf.Cos(ang); // Get X, Z vertex offsets
+				offset.z = r * Mathf.Sin(ang);
+				vertexList.Add(buffSegments[aux].desti.centre + buffSegments[aux].origen.normal * offset); // Add Vertex position
+					uvList.Add(texCoord);
+					texCoord.x += textureStepU;
 				if (n == 0) xf = (buffSegments[aux].desti.centre + buffSegments[aux].origen.normal * offset);	
 				else if(n == nPunts-1){
 					yf = (buffSegments[aux].desti.centre + buffSegments[aux].origen.normal * offset);
@@ -85,31 +137,23 @@ public class snakeWGenerator : MonoBehaviour {
 					offset.x = r * Mathf.Cos(ang); // Get X, Z vertex offsets
 					offset.z = r * Mathf.Sin(ang);
 					vertexList.Add(buffSegments[aux].desti.centre + buffSegments[aux].origen.normal * offset); // Add Vertex position
-					uvList.Add(texCoord); // Add UV coord
-					texCoord.x += textureStepU;
+						uvList.Add(texCoord);
+						texCoord.x += textureStepU;
 				}
-
-		}
-
-		for (var currentRingVertexIndex = vertexList.Count - nPunts - 1; currentRingVertexIndex < vertexList.Count - 1; currentRingVertexIndex++, lastRingVertexIndex++) {
-			triangleList.Add (lastRingVertexIndex + 1); // Triangle A
-			triangleList.Add (lastRingVertexIndex);
-			triangleList.Add (currentRingVertexIndex);
-			triangleList.Add (currentRingVertexIndex); // Triangle B
-			triangleList.Add (currentRingVertexIndex + 1);
-			triangleList.Add (lastRingVertexIndex + 1);
-		}
+				
+			}
+		} 
 		lastRingVertexIndex = vertexList.Count  - nPunts - 1;
 
 	//	buffSegments[aux].ground = Instantiate(terra, buffSegments[aux].desti.centre + buffSegments[aux].desti.normal * new Vector3(0f,0f,-r), Quaternion.identity) as GameObject;
 		ang = ((270 + angPla/2)*Mathf.PI)/(180);
 		offset.x = r * Mathf.Cos(ang); // Get X, Z vertex offsets
 		offset.z = r * Mathf.Sin(ang);
-		xo = (buffSegments[segActual].desti.centre + buffSegments[segActual].desti.normal * offset);
+		xo = (buffSegments[aux].origen.centre + buffSegments[aux].origen.normal * offset);
 		ang = ((270 - angPla/2)*Mathf.PI)/(180);
 		offset.x = r * Mathf.Cos(ang); // Get X, Z vertex offsets
 		offset.z = r * Mathf.Sin(ang);
-		yo = (buffSegments[segActual].desti.centre + buffSegments[segActual].desti.normal * offset);
+		yo = (buffSegments[aux].origen.centre + buffSegments[aux].origen.normal * offset);
 
 
 
@@ -121,7 +165,7 @@ public class snakeWGenerator : MonoBehaviour {
 
 
 
-	/*	buffSegments [aux]. */gScript.addGroundSeg (xo, yo, xf, yf);
+	/*	buffSegments [aux]. */if(!isSalt)gScript.addGroundSeg (xo, yo, xf, yf);
 		/*	buffSegments[aux].ground.transform.localScale = new Vector3(r * Mathf.Sin(angPla)+2, buffSegments[aux].length+2, 1);
 		buffSegments [aux].ground.transform.Rotate (buffSegments[aux].desti.normal.eulerAngles );
 		*/

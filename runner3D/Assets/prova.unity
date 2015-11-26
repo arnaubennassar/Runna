@@ -180,7 +180,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 482914, guid: a098ecc8216bb4ca8a911473e4e0058d, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3394048, guid: a098ecc8216bb4ca8a911473e4e0058d, type: 2}
       propertyPath: m_Mesh
@@ -221,6 +221,14 @@ Prefab:
     - target: {fileID: 11494260, guid: a098ecc8216bb4ca8a911473e4e0058d, type: 2}
       propertyPath: nPunts
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 11494260, guid: a098ecc8216bb4ca8a911473e4e0058d, type: 2}
+      propertyPath: pSalt
+      value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 11494260, guid: a098ecc8216bb4ca8a911473e4e0058d, type: 2}
+      propertyPath: dSalt
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a098ecc8216bb4ca8a911473e4e0058d, type: 2}

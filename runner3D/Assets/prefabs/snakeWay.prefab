@@ -72,16 +72,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbeb256d5d1454b08b88cdc0ac438df1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radi: 8
+  radi: 7
   varRadi: 0
-  longi: 15
+  longi: 20
   varLongi: 0
   pCorba: 0
-  pSalt: 0
-  factVarNormal: 2
-  nPunts: 8
-  angPla: 90
-  nSegments: 10
+  dSalt: 10
+  pSalt: .200000003
+  factVarNormal: 10
+  nPunts: 10
+  angPla: 130
+  nSegments: 100
   maxPendent: 30
   origen: {x: 0, y: 0, z: 0}
   normalOrigen: {x: 180, y: 0, z: 0}
@@ -95,7 +96,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: nPunts
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Mesh
@@ -107,15 +108,35 @@ Prefab:
       objectReference: {fileID: 114134, guid: 756697c3355e948b3a183fab602e22bc, type: 2}
     - target: {fileID: 0}
       propertyPath: angPla
-      value: 90
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: factVarNormal
-      value: 2
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: varLongi
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: pSalt
+      value: .200000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: dSalt
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: longi
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: radi
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: nSegments
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
