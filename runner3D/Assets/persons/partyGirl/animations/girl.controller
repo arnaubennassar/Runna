@@ -228,4 +228,8 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 384, y: 0, z: 0}
   m_ExitPosition: {x: 744, y: 0, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+<<<<<<< HEAD
   m_DefaultState: {fileID: 110264902}
+=======
+  m_DefaultState: {fileID: 110232416}
+>>>>>>> origin/master
