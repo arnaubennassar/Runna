@@ -1,0 +1,335 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &162796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 482914}
+  - 114: {fileID: 11494260}
+  - 23: {fileID: 2384566}
+  - 33: {fileID: 3394048}
+  m_Layer: 0
+  m_Name: iceWay
+  m_TagString: serp
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &482914
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162796}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!23 &2384566
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162796}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2821f0b8185984750b050831b05922aa, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3394048
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162796}
+  m_Mesh: {fileID: 0}
+--- !u!114 &11494260
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f4ef7b3420a9498fabd92212a40dcb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radi: 15
+  varRadi: 0
+  longi: 15
+  varLongi: 0
+  pTini: 0
+  pTfi: 0
+  dSalt: 13
+  pSalt: .100000001
+  pMony: .600000024
+  factVarNormal: 15
+  nPunts: 5
+  angPla: 40
+  nSegments: 20
+  maxPendent: 65
+  segmentsXobstacle: 3
+  dificultLvl: 0
+  origen: {x: 0, y: 0, z: 0}
+  normalOrigen: {x: 180, y: 0, z: 0}
+  mony1: {fileID: 199622, guid: 6da7e76d00cb44c7dbcba33eddb0c843, type: 2}
+  mony2: {fileID: 181552, guid: 0ccb2550dcabc4450900d886581d0acc, type: 2}
+  mony3: {fileID: 181552, guid: 0ccb2550dcabc4450900d886581d0acc, type: 2}
+  mony4: {fileID: 109764, guid: 7a6f662fc86b64adc9631e57ff05e1aa, type: 2}
+  mony5: {fileID: 127996, guid: ecf8ddd29eea14e6d87514cbef0f87d1, type: 2}
+  final: {fileID: 129920, guid: 367ffa7143a9c4589985172f4c7fbcaf, type: 2}
+  simples:
+  - {fileID: 145088, guid: bc5233c1d5311459c9ebbe9e4330bad7, type: 2}
+  - {fileID: 156256, guid: cd43fe91b36e648bd9401215745a0ed2, type: 2}
+  - {fileID: 179404, guid: a9793aff84c8b482092925247f7b5879, type: 2}
+  - {fileID: 143590, guid: 210757aa320ae42279bc1f73fb204a2e, type: 2}
+  - {fileID: 153456, guid: c6923a10dd68e41b1be9cb848816c908, type: 2}
+  - {fileID: 153456, guid: 241d0100c775f427aa6cf707494623ce, type: 2}
+  combos1:
+  - {fileID: 151574, guid: 7acaab0d7d85443e18ba9f06bc78496e, type: 2}
+  - {fileID: 189726, guid: f4acf730dfcae4a369c6fe6a145aea96, type: 2}
+  - {fileID: 153456, guid: c6923a10dd68e41b1be9cb848816c908, type: 2}
+  - {fileID: 153456, guid: 241d0100c775f427aa6cf707494623ce, type: 2}
+  combos2:
+  - {fileID: 143590, guid: 210757aa320ae42279bc1f73fb204a2e, type: 2}
+  - {fileID: 187766, guid: b9f4f28d98929460faa056600820d19f, type: 2}
+  - {fileID: 173532, guid: c9a628d5fb9804daf96e903c31a3e899, type: 2}
+  - {fileID: 166542, guid: a3c58d3e856554c26b91eb994a418339, type: 2}
+  isLast: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: simples.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: combos1.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: nPunts
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: terra
+      value: 
+      objectReference: {fileID: 114134, guid: 756697c3355e948b3a183fab602e22bc, type: 2}
+    - target: {fileID: 0}
+      propertyPath: angPla
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: factVarNormal
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: varLongi
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: pSalt
+      value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: dSalt
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: longi
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: radi
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: nSegments
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: pPinxus
+      value: .300000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: pValla
+      value: .300000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: pPorta
+      value: .300000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: maxPendent
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: origen.y
+      value: -200
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: limitDrt
+      value: 
+      objectReference: {fileID: 109764, guid: 7a6f662fc86b64adc9631e57ff05e1aa, type: 2}
+    - target: {fileID: 0}
+      propertyPath: limitEsq
+      value: 
+      objectReference: {fileID: 181552, guid: 0ccb2550dcabc4450900d886581d0acc, type: 2}
+    - target: {fileID: 0}
+      propertyPath: pinxus
+      value: 
+      objectReference: {fileID: 179404, guid: a9793aff84c8b482092925247f7b5879, type: 2}
+    - target: {fileID: 0}
+      propertyPath: pinxusR
+      value: 
+      objectReference: {fileID: 153456, guid: 241d0100c775f427aa6cf707494623ce, type: 2}
+    - target: {fileID: 0}
+      propertyPath: pinxusL
+      value: 
+      objectReference: {fileID: 180314, guid: 59d3326115ca2481b958508a50fde0e6, type: 2}
+    - target: {fileID: 0}
+      propertyPath: segmentsXobstacle
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: normalOrigen.x
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: porta
+      value: 
+      objectReference: {fileID: 156256, guid: cd43fe91b36e648bd9401215745a0ed2, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony1
+      value: 
+      objectReference: {fileID: 199622, guid: 6da7e76d00cb44c7dbcba33eddb0c843, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony2
+      value: 
+      objectReference: {fileID: 181552, guid: 0ccb2550dcabc4450900d886581d0acc, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony3
+      value: 
+      objectReference: {fileID: 181552, guid: 0ccb2550dcabc4450900d886581d0acc, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony4
+      value: 
+      objectReference: {fileID: 109764, guid: 7a6f662fc86b64adc9631e57ff05e1aa, type: 2}
+    - target: {fileID: 0}
+      propertyPath: valla
+      value: 
+      objectReference: {fileID: 145088, guid: bc5233c1d5311459c9ebbe9e4330bad7, type: 2}
+    - target: {fileID: 0}
+      propertyPath: pMony
+      value: .600000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: simples.Array.data[0]
+      value: 
+      objectReference: {fileID: 145088, guid: bc5233c1d5311459c9ebbe9e4330bad7, type: 2}
+    - target: {fileID: 0}
+      propertyPath: simples.Array.data[1]
+      value: 
+      objectReference: {fileID: 156256, guid: cd43fe91b36e648bd9401215745a0ed2, type: 2}
+    - target: {fileID: 0}
+      propertyPath: simples.Array.data[2]
+      value: 
+      objectReference: {fileID: 179404, guid: a9793aff84c8b482092925247f7b5879, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos1.Array.data[0]
+      value: 
+      objectReference: {fileID: 151574, guid: 7acaab0d7d85443e18ba9f06bc78496e, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos1.Array.data[1]
+      value: 
+      objectReference: {fileID: 153456, guid: c6923a10dd68e41b1be9cb848816c908, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[0]
+      value: 
+      objectReference: {fileID: 143590, guid: 210757aa320ae42279bc1f73fb204a2e, type: 2}
+    - target: {fileID: 0}
+      propertyPath: simples.Array.data[3]
+      value: 
+      objectReference: {fileID: 143590, guid: 210757aa320ae42279bc1f73fb204a2e, type: 2}
+    - target: {fileID: 0}
+      propertyPath: simples.Array.data[4]
+      value: 
+      objectReference: {fileID: 153456, guid: c6923a10dd68e41b1be9cb848816c908, type: 2}
+    - target: {fileID: 0}
+      propertyPath: simples.Array.data[5]
+      value: 
+      objectReference: {fileID: 153456, guid: 241d0100c775f427aa6cf707494623ce, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos1.Array.data[2]
+      value: 
+      objectReference: {fileID: 153456, guid: c6923a10dd68e41b1be9cb848816c908, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos1.Array.data[3]
+      value: 
+      objectReference: {fileID: 153456, guid: 241d0100c775f427aa6cf707494623ce, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[1]
+      value: 
+      objectReference: {fileID: 187766, guid: b9f4f28d98929460faa056600820d19f, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[2]
+      value: 
+      objectReference: {fileID: 173532, guid: c9a628d5fb9804daf96e903c31a3e899, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[3]
+      value: 
+      objectReference: {fileID: 166542, guid: a3c58d3e856554c26b91eb994a418339, type: 2}
+    - target: {fileID: 0}
+      propertyPath: pendentE
+      value: 
+      objectReference: {fileID: 123988, guid: f56553439dfd347adb0a5b2b8c69d431, type: 2}
+    - target: {fileID: 0}
+      propertyPath: pendentD
+      value: 
+      objectReference: {fileID: 156256, guid: cd43fe91b36e648bd9401215745a0ed2, type: 2}
+    - target: {fileID: 0}
+      propertyPath: final
+      value: 
+      objectReference: {fileID: 129920, guid: 367ffa7143a9c4589985172f4c7fbcaf, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony5
+      value: 
+      objectReference: {fileID: 127996, guid: ecf8ddd29eea14e6d87514cbef0f87d1, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 162796}
+  m_IsPrefabParent: 1

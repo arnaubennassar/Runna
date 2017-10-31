@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 6c68e7f4373c5e4448a58035c750ebe5
+timeCreated: 1455808466
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: "Deckfl\xE4che"
+    100002: Griff
+    100004: Griff 1
+    100006: Griff 2
+    100008: Kugel
+    100010: Muster_1
+    100012: Muster_1 1
+    100014: Noppen
+    100016: Noppen 1
+    100018: Noppen 2
+    100020: Noppen.1
+    100022: Noppen.2
+    100024: Noppen.3
+    100026: Noppen.4
+    100028: Noppen.5
+    100030: Noppen.6
+    100032: Noppen.7
+    100034: Noppen.8
+    100036: Noppen.9
+    100038: Phoenix
+    100040: Phoenix 1
+    100042: Phoenix_Bein
+    100044: "Phoenix_Fl\xFCgel"
+    100046: Phoenix_Kopf
+    100048: "Phoenix_K\xF6rper"
+    100050: Pyramide
+    100052: Pyramide.1
+    100054: Pyramide.2
+    100056: Pyramide.3
+    100058: Rahmen
+    100060: Rahmen 1
+    100062: Tri_Force
+    100064: //RootNode
+    100066: Zylinder
+    100068: Zylinder 1
+    100070: Zylinder.1
+    100072: Zylinder.2
+    400000: "Deckfl\xE4che"
+    400002: Griff
+    400004: Griff 1
+    400006: Griff 2
+    400008: Kugel
+    400010: Muster_1
+    400012: Muster_1 1
+    400014: Noppen
+    400016: Noppen 1
+    400018: Noppen 2
+    400020: Noppen.1
+    400022: Noppen.2
+    400024: Noppen.3
+    400026: Noppen.4
+    400028: Noppen.5
+    400030: Noppen.6
+    400032: Noppen.7
+    400034: Noppen.8
+    400036: Noppen.9
+    400038: Phoenix
+    400040: Phoenix 1
+    400042: Phoenix_Bein
+    400044: "Phoenix_Fl\xFCgel"
+    400046: Phoenix_Kopf
+    400048: "Phoenix_K\xF6rper"
+    400050: Pyramide
+    400052: Pyramide.1
+    400054: Pyramide.2
+    400056: Pyramide.3
+    400058: Rahmen
+    400060: Rahmen 1
+    400062: Tri_Force
+    400064: //RootNode
+    400066: Zylinder
+    400068: Zylinder 1
+    400070: Zylinder.1
+    400072: Zylinder.2
+    2300000: "Deckfl\xE4che"
+    2300002: Kugel
+    2300004: Muster_1 1
+    2300006: Noppen 2
+    2300008: Noppen.1
+    2300010: Noppen.2
+    2300012: Noppen.3
+    2300014: Noppen.4
+    2300016: Noppen.5
+    2300018: Noppen.6
+    2300020: Noppen.7
+    2300022: Noppen.8
+    2300024: Noppen.9
+    2300026: Phoenix_Bein
+    2300028: "Phoenix_Fl\xFCgel"
+    2300030: Phoenix_Kopf
+    2300032: "Phoenix_K\xF6rper"
+    2300034: Pyramide
+    2300036: Pyramide.1
+    2300038: Pyramide.2
+    2300040: Pyramide.3
+    2300042: Rahmen 1
+    2300044: Zylinder
+    2300046: Zylinder 1
+    2300048: Zylinder.1
+    2300050: Zylinder.2
+    3300000: "Deckfl\xE4che"
+    3300002: Kugel
+    3300004: Muster_1 1
+    3300006: Noppen 2
+    3300008: Noppen.1
+    3300010: Noppen.2
+    3300012: Noppen.3
+    3300014: Noppen.4
+    3300016: Noppen.5
+    3300018: Noppen.6
+    3300020: Noppen.7
+    3300022: Noppen.8
+    3300024: Noppen.9
+    3300026: Phoenix_Bein
+    3300028: "Phoenix_Fl\xFCgel"
+    3300030: Phoenix_Kopf
+    3300032: "Phoenix_K\xF6rper"
+    3300034: Pyramide
+    3300036: Pyramide.1
+    3300038: Pyramide.2
+    3300040: Pyramide.3
+    3300042: Rahmen 1
+    3300044: Zylinder
+    3300046: Zylinder 1
+    3300048: Zylinder.1
+    3300050: Zylinder.2
+    4300000: Zylinder.2
+    4300002: Zylinder.1
+    4300004: Zylinder
+    4300006: Kugel
+    4300008: Zylinder
+    4300010: "Phoenix_Fl\xFCgel"
+    4300012: Phoenix_Bein
+    4300014: "Phoenix_K\xF6rper"
+    4300016: Phoenix_Kopf
+    4300018: Pyramide.3
+    4300020: Pyramide.2
+    4300022: Pyramide.1
+    4300024: Pyramide
+    4300026: Muster_1
+    4300028: Noppen.9
+    4300030: Noppen.8
+    4300032: Noppen.7
+    4300034: Noppen.6
+    4300036: Noppen.5
+    4300038: Noppen.4
+    4300040: Noppen.3
+    4300042: Noppen.2
+    4300044: Noppen.1
+    4300046: Noppen
+    4300048: "Deckfl\xE4che"
+    4300050: Rahmen
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

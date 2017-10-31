@@ -1,0 +1,133 @@
+fileFormatVersion: 2
+guid: 154bc7ad9e101b94f88fbf949a18c478
+timeCreated: 1464121446
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 1_Horns
+    100002: 1_InnerMouth
+    100004: 1_SkinFace
+    100006: 1_SkinJaw
+    100008: 1_Tongue
+    100010: 2_Claws
+    100012: 2_SkinBody
+    100014: 2_SkinUnderbelly
+    100016: 2_Teeth
+    100018: 3_WingsBottom
+    100020: 3_WingsTop
+    100022: 4_Eyes
+    100024: //RootNode
+    400000: 1_Horns
+    400002: 1_InnerMouth
+    400004: 1_SkinFace
+    400006: 1_SkinJaw
+    400008: 1_Tongue
+    400010: 2_Claws
+    400012: 2_SkinBody
+    400014: 2_SkinUnderbelly
+    400016: 2_Teeth
+    400018: 3_WingsBottom
+    400020: 3_WingsTop
+    400022: 4_Eyes
+    400024: //RootNode
+    2300000: 1_Horns
+    2300002: 1_InnerMouth
+    2300004: 1_SkinFace
+    2300006: 1_SkinJaw
+    2300008: 1_Tongue
+    2300010: 2_Claws
+    2300012: 2_SkinBody
+    2300014: 2_SkinUnderbelly
+    2300016: 2_Teeth
+    2300018: 3_WingsBottom
+    2300020: 3_WingsTop
+    2300022: 4_Eyes
+    3300000: 1_Horns
+    3300002: 1_InnerMouth
+    3300004: 1_SkinFace
+    3300006: 1_SkinJaw
+    3300008: 1_Tongue
+    3300010: 2_Claws
+    3300012: 2_SkinBody
+    3300014: 2_SkinUnderbelly
+    3300016: 2_Teeth
+    3300018: 3_WingsBottom
+    3300020: 3_WingsTop
+    3300022: 4_Eyes
+    4300000: 1_Horns
+    4300002: 1_InnerMouth
+    4300004: 1_SkinFace
+    4300006: 1_SkinJaw
+    4300008: 1_Tongue
+    4300010: 2_Claws
+    4300012: 2_SkinBody
+    4300014: 2_SkinUnderbelly
+    4300016: 2_Teeth
+    4300018: 3_WingsBottom
+    4300020: 3_WingsTop
+    4300022: 4_Eyes
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

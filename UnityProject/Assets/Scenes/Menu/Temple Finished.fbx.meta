@@ -1,0 +1,348 @@
+fileFormatVersion: 2
+guid: f1ee7696834be234f82736568f1f1b39
+timeCreated: 1456013950
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: frontnurbsCube1
+    100002: frontnurbsCube1 1
+    100004: frontnurbsCube1 2
+    100006: frontnurbsCube1 3
+    100008: frontnurbsCube2
+    100010: frontnurbsCube2 1
+    100012: frontnurbsCube2 2
+    100014: frontnurbsCube2 3
+    100016: group1
+    100018: group1 1
+    100020: group1 2
+    100022: group1 3
+    100024: group10
+    100026: group11
+    100028: group12
+    100030: group2
+    100032: group2 1
+    100034: group2 2
+    100036: group2 3
+    100038: group3
+    100040: group4
+    100042: group5
+    100044: group6
+    100046: group9
+    100048: nurbsSphere1
+    100050: nurbsSphere1 1
+    100052: nurbsSphere1 2
+    100054: nurbsSphere1 3
+    100056: nurbsSphere1 4
+    100058: nurbsSphere1 5
+    100060: nurbsSphere1 6
+    100062: nurbsSphere1 7
+    100064: nurbsSphere2
+    100066: nurbsSphere3
+    100068: nurbsTorus1
+    100070: nurbsTorus2
+    100072: pCube1
+    100074: pCube1 1
+    100076: pCube1 2
+    100078: pCube1 3
+    100080: pCube1 4
+    100082: pCube1 5
+    100084: pCube1 6
+    100086: pCube1 7
+    100088: pCube2
+    100090: pCube2 1
+    100092: pCube2 2
+    100094: pCube2 3
+    100096: pCube2 4
+    100098: pCube2 5
+    100100: pCube2 6
+    100102: pCube2 7
+    100104: pCube4
+    100106: pCube4 1
+    100108: pCube4 2
+    100110: pCube4 3
+    100112: pCube5
+    100114: pCube5 1
+    100116: pCube5 2
+    100118: pCube5 3
+    100120: pCylinder1
+    100122: pCylinder1 1
+    100124: pCylinder1 2
+    100126: pCylinder1 3
+    100128: pCylinder1 4
+    100130: pCylinder1 5
+    100132: pCylinder1 6
+    100134: pCylinder1 7
+    100136: rightnurbsCube1
+    100138: rightnurbsCube1 1
+    100140: rightnurbsCube1 2
+    100142: rightnurbsCube1 3
+    100144: rightnurbsCube2
+    100146: rightnurbsCube2 1
+    100148: rightnurbsCube2 2
+    100150: rightnurbsCube2 3
+    100152: rightnurbsCube3
+    100154: rightnurbsCube3 1
+    100156: rightnurbsCube3 2
+    100158: rightnurbsCube3 3
+    100160: rightnurbsCube4
+    100162: rightnurbsCube4 1
+    100164: rightnurbsCube4 2
+    100166: rightnurbsCube4 3
+    100168: //RootNode
+    100170: Temple_Base
+    100172: Temple_Base1
+    400000: frontnurbsCube1
+    400002: frontnurbsCube1 1
+    400004: frontnurbsCube1 2
+    400006: frontnurbsCube1 3
+    400008: frontnurbsCube2
+    400010: frontnurbsCube2 1
+    400012: frontnurbsCube2 2
+    400014: frontnurbsCube2 3
+    400016: group1
+    400018: group1 1
+    400020: group1 2
+    400022: group1 3
+    400024: group10
+    400026: group11
+    400028: group12
+    400030: group2
+    400032: group2 1
+    400034: group2 2
+    400036: group2 3
+    400038: group3
+    400040: group4
+    400042: group5
+    400044: group6
+    400046: group9
+    400048: nurbsSphere1
+    400050: nurbsSphere1 1
+    400052: nurbsSphere1 2
+    400054: nurbsSphere1 3
+    400056: nurbsSphere1 4
+    400058: nurbsSphere1 5
+    400060: nurbsSphere1 6
+    400062: nurbsSphere1 7
+    400064: nurbsSphere2
+    400066: nurbsSphere3
+    400068: nurbsTorus1
+    400070: nurbsTorus2
+    400072: pCube1
+    400074: pCube1 1
+    400076: pCube1 2
+    400078: pCube1 3
+    400080: pCube1 4
+    400082: pCube1 5
+    400084: pCube1 6
+    400086: pCube1 7
+    400088: pCube2
+    400090: pCube2 1
+    400092: pCube2 2
+    400094: pCube2 3
+    400096: pCube2 4
+    400098: pCube2 5
+    400100: pCube2 6
+    400102: pCube2 7
+    400104: pCube4
+    400106: pCube4 1
+    400108: pCube4 2
+    400110: pCube4 3
+    400112: pCube5
+    400114: pCube5 1
+    400116: pCube5 2
+    400118: pCube5 3
+    400120: pCylinder1
+    400122: pCylinder1 1
+    400124: pCylinder1 2
+    400126: pCylinder1 3
+    400128: pCylinder1 4
+    400130: pCylinder1 5
+    400132: pCylinder1 6
+    400134: pCylinder1 7
+    400136: rightnurbsCube1
+    400138: rightnurbsCube1 1
+    400140: rightnurbsCube1 2
+    400142: rightnurbsCube1 3
+    400144: rightnurbsCube2
+    400146: rightnurbsCube2 1
+    400148: rightnurbsCube2 2
+    400150: rightnurbsCube2 3
+    400152: rightnurbsCube3
+    400154: rightnurbsCube3 1
+    400156: rightnurbsCube3 2
+    400158: rightnurbsCube3 3
+    400160: rightnurbsCube4
+    400162: rightnurbsCube4 1
+    400164: rightnurbsCube4 2
+    400166: rightnurbsCube4 3
+    400168: //RootNode
+    400170: Temple_Base
+    400172: Temple_Base1
+    2300000: pCube1
+    2300002: pCube1 1
+    2300004: pCube1 2
+    2300006: pCube1 3
+    2300008: pCube1 4
+    2300010: pCube1 5
+    2300012: pCube1 6
+    2300014: pCube1 7
+    2300016: pCube2
+    2300018: pCube2 1
+    2300020: pCube2 2
+    2300022: pCube2 3
+    2300024: pCube2 4
+    2300026: pCube2 5
+    2300028: pCube2 6
+    2300030: pCube2 7
+    2300032: pCube4
+    2300034: pCube4 1
+    2300036: pCube4 2
+    2300038: pCube4 3
+    2300040: pCube5
+    2300042: pCube5 1
+    2300044: pCube5 2
+    2300046: pCube5 3
+    2300048: pCylinder1
+    2300050: pCylinder1 1
+    2300052: pCylinder1 2
+    2300054: pCylinder1 3
+    2300056: pCylinder1 4
+    2300058: pCylinder1 5
+    2300060: pCylinder1 6
+    2300062: pCylinder1 7
+    2300064: Temple_Base
+    2300066: Temple_Base1
+    3300000: pCube1
+    3300002: pCube1 1
+    3300004: pCube1 2
+    3300006: pCube1 3
+    3300008: pCube1 4
+    3300010: pCube1 5
+    3300012: pCube1 6
+    3300014: pCube1 7
+    3300016: pCube2
+    3300018: pCube2 1
+    3300020: pCube2 2
+    3300022: pCube2 3
+    3300024: pCube2 4
+    3300026: pCube2 5
+    3300028: pCube2 6
+    3300030: pCube2 7
+    3300032: pCube4
+    3300034: pCube4 1
+    3300036: pCube4 2
+    3300038: pCube4 3
+    3300040: pCube5
+    3300042: pCube5 1
+    3300044: pCube5 2
+    3300046: pCube5 3
+    3300048: pCylinder1
+    3300050: pCylinder1 1
+    3300052: pCylinder1 2
+    3300054: pCylinder1 3
+    3300056: pCylinder1 4
+    3300058: pCylinder1 5
+    3300060: pCylinder1 6
+    3300062: pCylinder1 7
+    3300064: Temple_Base
+    3300066: Temple_Base1
+    4300000: Temple_Base
+    4300002: Temple_Base1
+    4300004: pCube2
+    4300006: pCube1
+    4300008: pCylinder1
+    4300010: pCube2
+    4300012: pCube1
+    4300014: pCylinder1
+    4300016: pCube2
+    4300018: pCube1
+    4300020: pCylinder1
+    4300022: pCube2
+    4300024: pCube1
+    4300026: pCylinder1
+    4300028: pCube2
+    4300030: pCube1
+    4300032: pCylinder1
+    4300034: pCube2
+    4300036: pCube1
+    4300038: pCylinder1
+    4300040: pCube2
+    4300042: pCube1
+    4300044: pCylinder1
+    4300046: pCube2
+    4300048: pCube1
+    4300050: pCylinder1
+    4300052: pCube4
+    4300054: pCube5
+    4300056: pCube4
+    4300058: pCube5
+    4300060: pCube4
+    4300062: pCube5
+    4300064: pCube4
+    4300066: pCube5
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,52 @@
+# Wavefront MTL file
+# Creator: Ultimate Unwrap3D Pro v3.33
+# URL: http://www.unwrap3d.com
+# Time: Mon Dec 05 14:05:43 2011
+# num_materials: 5
+
+newmtl walls
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+d 1.000000
+illum 2
+Ns 0.000000
+map_Kd wallstones.png
+
+newmtl bowpart
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+d 1.000000
+illum 2
+Ns 0.000000
+map_Kd bowpart.png
+
+newmtl plaster
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+d 1.000000
+illum 2
+Ns 0.000000
+map_Kd cobbles.png
+
+newmtl sideway
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+d 1.000000
+illum 2
+Ns 0.000000
+map_Kd sidewalk.png
+
+newmtl rail
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+d 1.000000
+illum 2
+Ns 0.000000
+map_Kd railtex.png
+
+# num_materials: 5

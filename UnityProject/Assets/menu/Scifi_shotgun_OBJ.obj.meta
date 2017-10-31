@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: 2d82881809b9583438d04ff3306f1221
+timeCreated: 1456074078
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Barrel
+    100002: body
+    100004: body_bolts
+    100006: bottom_bolt
+    100008: Cartrage_1
+    100010: Cartrage_2
+    100012: catch
+    100014: Cylinder05
+    100016: front_bolt_1
+    100018: front_bolt_2
+    100020: front_sight
+    100022: ground
+    100024: //RootNode
+    100026: Stock
+    100028: stock_bolts
+    100030: Trigger
+    100032: trigger_guard
+    400000: Barrel
+    400002: body
+    400004: body_bolts
+    400006: bottom_bolt
+    400008: Cartrage_1
+    400010: Cartrage_2
+    400012: catch
+    400014: Cylinder05
+    400016: front_bolt_1
+    400018: front_bolt_2
+    400020: front_sight
+    400022: ground
+    400024: //RootNode
+    400026: Stock
+    400028: stock_bolts
+    400030: Trigger
+    400032: trigger_guard
+    2300000: Barrel
+    2300002: body
+    2300004: body_bolts
+    2300006: bottom_bolt
+    2300008: Cartrage_1
+    2300010: Cartrage_2
+    2300012: catch
+    2300014: Cylinder05
+    2300016: front_bolt_1
+    2300018: front_bolt_2
+    2300020: front_sight
+    2300022: ground
+    2300024: Stock
+    2300026: stock_bolts
+    2300028: Trigger
+    2300030: trigger_guard
+    3300000: Barrel
+    3300002: body
+    3300004: body_bolts
+    3300006: bottom_bolt
+    3300008: Cartrage_1
+    3300010: Cartrage_2
+    3300012: catch
+    3300014: Cylinder05
+    3300016: front_bolt_1
+    3300018: front_bolt_2
+    3300020: front_sight
+    3300022: ground
+    3300024: Stock
+    3300026: stock_bolts
+    3300028: Trigger
+    3300030: trigger_guard
+    4300000: Barrel
+    4300002: body
+    4300004: body_bolts
+    4300006: bottom_bolt
+    4300008: Cartrage_1
+    4300010: Cartrage_2
+    4300012: catch
+    4300014: Cylinder05
+    4300016: front_bolt_1
+    4300018: front_bolt_2
+    4300020: front_sight
+    4300022: ground
+    4300024: Stock
+    4300026: stock_bolts
+    4300028: Trigger
+    4300030: trigger_guard
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

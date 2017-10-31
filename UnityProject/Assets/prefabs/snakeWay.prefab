@@ -1,0 +1,521 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &162796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 482914}
+  - 114: {fileID: 11494260}
+  - 23: {fileID: 2384566}
+  - 33: {fileID: 3394048}
+  m_Layer: 0
+  m_Name: snakeWay
+  m_TagString: serp
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &482914
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162796}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!23 &2384566
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162796}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07b242238eaf74533bda75ac5094aced, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3394048
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162796}
+  m_Mesh: {fileID: 0}
+--- !u!114 &11494260
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e271b277f9a84c0bbb286625a1ce686, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radi: 25
+  varRadi: 0
+  longi: 50
+  varLongi: 0
+  pTini: 0
+  pTfi: 0
+  dSalt: 0
+  pSalt: 0
+  pMony: 1
+  factVarNormal: 30
+  nPunts: 15
+  angPla: 40
+  nSegments: 10
+  maxPendent: 8
+  segmentsXobstacle: 3
+  dificultLvl: 0
+  origen: {x: 0, y: 0, z: 0}
+  normalOrigen: {x: 180, y: 0, z: 0}
+  pendentD: {fileID: 194284, guid: 2e6cb30fb03d543d6902e7caff98b0a5, type: 2}
+  pendentE: {fileID: 126916, guid: d94e504270ae64ebbb89ab29e76cc929, type: 2}
+  final: {fileID: 119804, guid: 351aa4721c02a7b41904d6b79f58d88d, type: 2}
+  simples:
+  - {fileID: 182800, guid: 44555de96a6c0ac40a97c85a242cb067, type: 2}
+  - {fileID: 169910, guid: a4f3950f3abe40b429eb51025e701cb7, type: 2}
+  combos1:
+  - {fileID: 174136, guid: 7ab6dbc79032620498085b9d8e82b7e7, type: 2}
+  - {fileID: 112172, guid: 089d34f249a2f4440a661191f01c4bab, type: 2}
+  - {fileID: 157840, guid: 796232e40dbcba2488198d6e36e23066, type: 2}
+  combos2:
+  - {fileID: 113066, guid: 5cf65eb97c89c5744aa9c9bc00c13841, type: 2}
+  mony:
+  - {fileID: 101660, guid: 252bd474acb370c4ca3ad0b264a8b893, type: 2}
+  - {fileID: 101660, guid: 936e47f257c9bc04abdd5552aca23ebf, type: 2}
+  - {fileID: 101660, guid: bc1728ef4a2bc9048a73a0eb92009f99, type: 2}
+  - {fileID: 101660, guid: 58aa88374a020ed4b807970f55ff5ef7, type: 2}
+  - {fileID: 168280, guid: dc30f8632294d4e4a91a76b2d2f73e5f, type: 2}
+  - {fileID: 168280, guid: f75d43f64fbb69a4b932f3eab37e7db0, type: 2}
+  - {fileID: 168280, guid: 23d0fc18b2f636d419990f21ec876bd6, type: 2}
+  - {fileID: 173704, guid: 0a19b188b1e135943a8ce050ee961b48, type: 2}
+  - {fileID: 173704, guid: 349e5a953bc40bd45b00f2dfeb1e8aaf, type: 2}
+  - {fileID: 173704, guid: c5aee129f7b7227489c0e0b9f71245a3, type: 2}
+  - {fileID: 170356, guid: b09b2be78e4530941ab16d98af927b76, type: 2}
+  - {fileID: 170356, guid: c37a01bfde7e37d4b8f1f10eda020fb2, type: 2}
+  - {fileID: 170356, guid: c54f064bc3aba1741ad91fe0306df2ef, type: 2}
+  - {fileID: 175706, guid: 21b79fb78c29b8f45827c70a1e7c720d, type: 2}
+  - {fileID: 175706, guid: 44031dbc70b17a341b53d4c4bcea23a6, type: 2}
+  - {fileID: 175706, guid: 654366153f5764643a529a37b5c93909, type: 2}
+  - {fileID: 101660, guid: d508a275f60b3ce4492ac7b6165ea700, type: 2}
+  - {fileID: 101660, guid: d508a275f60b3ce4492ac7b6165ea700, type: 2}
+  - {fileID: 101660, guid: d508a275f60b3ce4492ac7b6165ea700, type: 2}
+  - {fileID: 101660, guid: d508a275f60b3ce4492ac7b6165ea700, type: 2}
+  - {fileID: 101660, guid: d508a275f60b3ce4492ac7b6165ea700, type: 2}
+  - {fileID: 101660, guid: d508a275f60b3ce4492ac7b6165ea700, type: 2}
+  - {fileID: 101660, guid: bc1728ef4a2bc9048a73a0eb92009f99, type: 2}
+  - {fileID: 101660, guid: bc1728ef4a2bc9048a73a0eb92009f99, type: 2}
+  - {fileID: 101660, guid: bc1728ef4a2bc9048a73a0eb92009f99, type: 2}
+  - {fileID: 101660, guid: bc1728ef4a2bc9048a73a0eb92009f99, type: 2}
+  - {fileID: 101660, guid: 936e47f257c9bc04abdd5552aca23ebf, type: 2}
+  - {fileID: 101660, guid: 936e47f257c9bc04abdd5552aca23ebf, type: 2}
+  - {fileID: 101660, guid: 936e47f257c9bc04abdd5552aca23ebf, type: 2}
+  - {fileID: 101660, guid: 936e47f257c9bc04abdd5552aca23ebf, type: 2}
+  isLast: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: mony.Array.size
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: simples.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: combos1.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: nPunts
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: terra
+      value: 
+      objectReference: {fileID: 114134, guid: 756697c3355e948b3a183fab602e22bc, type: 2}
+    - target: {fileID: 0}
+      propertyPath: angPla
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: factVarNormal
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: varLongi
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: pSalt
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: dSalt
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: longi
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: radi
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: nSegments
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: maxPendent
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: limitDrt
+      value: 
+      objectReference: {fileID: 194284, guid: 2e6cb30fb03d543d6902e7caff98b0a5, type: 2}
+    - target: {fileID: 0}
+      propertyPath: limitEsq
+      value: 
+      objectReference: {fileID: 130230, guid: d94e504270ae64ebbb89ab29e76cc929, type: 2}
+    - target: {fileID: 0}
+      propertyPath: pendentD
+      value: 
+      objectReference: {fileID: 194284, guid: 2e6cb30fb03d543d6902e7caff98b0a5, type: 2}
+    - target: {fileID: 0}
+      propertyPath: pendentE
+      value: 
+      objectReference: {fileID: 126916, guid: d94e504270ae64ebbb89ab29e76cc929, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony2
+      value: 
+      objectReference: {fileID: 101660, guid: 936e47f257c9bc04abdd5552aca23ebf, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony4
+      value: 
+      objectReference: {fileID: 101660, guid: 58aa88374a020ed4b807970f55ff5ef7, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony5
+      value: 
+      objectReference: {fileID: 101660, guid: d508a275f60b3ce4492ac7b6165ea700, type: 2}
+    - target: {fileID: 0}
+      propertyPath: simples.Array.data[0]
+      value: 
+      objectReference: {fileID: 182800, guid: 44555de96a6c0ac40a97c85a242cb067, type: 2}
+    - target: {fileID: 0}
+      propertyPath: simples.Array.data[1]
+      value: 
+      objectReference: {fileID: 169910, guid: a4f3950f3abe40b429eb51025e701cb7, type: 2}
+    - target: {fileID: 0}
+      propertyPath: simples.Array.data[2]
+      value: 
+      objectReference: {fileID: 121896, guid: 8ff85bdd37f952848a7af15bc7419620, type: 2}
+    - target: {fileID: 0}
+      propertyPath: simples.Array.data[3]
+      value: 
+      objectReference: {fileID: 179610, guid: 43f4f5a4ae40f4cb7a2d9167cc39cb95, type: 2}
+    - target: {fileID: 0}
+      propertyPath: simples.Array.data[4]
+      value: 
+      objectReference: {fileID: 123094, guid: 42175590dbace814aa41850408ac83bd, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[1]
+      value: 
+      objectReference: {fileID: 143590, guid: 35d2be1ede47c2c4db1f37d6637b98e1, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[0]
+      value: 
+      objectReference: {fileID: 113066, guid: 5cf65eb97c89c5744aa9c9bc00c13841, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos1.Array.data[0]
+      value: 
+      objectReference: {fileID: 174136, guid: 7ab6dbc79032620498085b9d8e82b7e7, type: 2}
+    - target: {fileID: 0}
+      propertyPath: segmentsXobstacle
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: combos1.Array.data[1]
+      value: 
+      objectReference: {fileID: 112172, guid: 089d34f249a2f4440a661191f01c4bab, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony3
+      value: 
+      objectReference: {fileID: 101660, guid: bc1728ef4a2bc9048a73a0eb92009f99, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos1.Array.data[2]
+      value: 
+      objectReference: {fileID: 157840, guid: 796232e40dbcba2488198d6e36e23066, type: 2}
+    - target: {fileID: 0}
+      propertyPath: pMony
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: simples.Array.data[5]
+      value: 
+      objectReference: {fileID: 151736, guid: 9d8c295f8bacd413d8663f04a97f924f, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos1.Array.data[3]
+      value: 
+      objectReference: {fileID: 133196, guid: a329095279821a0428954ebaf05a9568, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[2]
+      value: 
+      objectReference: {fileID: 106052, guid: 9638178a69ffc419b947719d66eb88e4, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[3]
+      value: 
+      objectReference: {fileID: 106052, guid: a0e8e379c17eaa44e966e7ea89d48381, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[4]
+      value: 
+      objectReference: {fileID: 138170, guid: 1a7343b7c628c7641b41a9c7d48de9cb, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[5]
+      value: 
+      objectReference: {fileID: 138170, guid: d5b2f7bcfab33f9409623e7744d29e38, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[6]
+      value: 
+      objectReference: {fileID: 133196, guid: 04dec368076950b4ba11137da9d2f069, type: 2}
+    - target: {fileID: 0}
+      propertyPath: final
+      value: 
+      objectReference: {fileID: 119804, guid: 351aa4721c02a7b41904d6b79f58d88d, type: 2}
+    - target: {fileID: 0}
+      propertyPath: varRadi
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mony1
+      value: 
+      objectReference: {fileID: 101660, guid: 252bd474acb370c4ca3ad0b264a8b893, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony.Array.data[0]
+      value: 
+      objectReference: {fileID: 101660, guid: 252bd474acb370c4ca3ad0b264a8b893, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony.Array.data[1]
+      value: 
+      objectReference: {fileID: 101660, guid: 936e47f257c9bc04abdd5552aca23ebf, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony.Array.data[2]
+      value: 
+      objectReference: {fileID: 101660, guid: bc1728ef4a2bc9048a73a0eb92009f99, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony.Array.data[3]
+      value: 
+      objectReference: {fileID: 101660, guid: 58aa88374a020ed4b807970f55ff5ef7, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony.Array.data[4]
+      value: 
+      objectReference: {fileID: 168280, guid: dc30f8632294d4e4a91a76b2d2f73e5f, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony.Array.data[5]
+      value: 
+      objectReference: {fileID: 168280, guid: f75d43f64fbb69a4b932f3eab37e7db0, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony.Array.data[6]
+      value: 
+      objectReference: {fileID: 168280, guid: 23d0fc18b2f636d419990f21ec876bd6, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony.Array.data[7]
+      value: 
+      objectReference: {fileID: 173704, guid: 0a19b188b1e135943a8ce050ee961b48, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony.Array.data[8]
+      value: 
+      objectReference: {fileID: 173704, guid: 349e5a953bc40bd45b00f2dfeb1e8aaf, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony.Array.data[9]
+      value: 
+      objectReference: {fileID: 173704, guid: c5aee129f7b7227489c0e0b9f71245a3, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony.Array.data[10]
+      value: 
+      objectReference: {fileID: 170356, guid: b09b2be78e4530941ab16d98af927b76, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony.Array.data[11]
+      value: 
+      objectReference: {fileID: 170356, guid: c37a01bfde7e37d4b8f1f10eda020fb2, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony.Array.data[12]
+      value: 
+      objectReference: {fileID: 170356, guid: c54f064bc3aba1741ad91fe0306df2ef, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony.Array.data[13]
+      value: 
+      objectReference: {fileID: 175706, guid: 21b79fb78c29b8f45827c70a1e7c720d, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony.Array.data[14]
+      value: 
+      objectReference: {fileID: 175706, guid: 44031dbc70b17a341b53d4c4bcea23a6, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony.Array.data[15]
+      value: 
+      objectReference: {fileID: 175706, guid: 654366153f5764643a529a37b5c93909, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos1.Array.data[4]
+      value: 
+      objectReference: {fileID: 141206, guid: 9d49a7d7389175b489f31941b4432150, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos1.Array.data[5]
+      value: 
+      objectReference: {fileID: 141206, guid: b269c6a3fb6f1a44c9050c4ee59db84e, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos1.Array.data[6]
+      value: 
+      objectReference: {fileID: 141206, guid: c49fba867b6d6be49aa40f87dd479544, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos1.Array.data[7]
+      value: 
+      objectReference: {fileID: 126112, guid: 4c7737c296d45834aaa2ea4a5a281d52, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos1.Array.data[8]
+      value: 
+      objectReference: {fileID: 123094, guid: 42175590dbace814aa41850408ac83bd, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos1.Array.data[9]
+      value: 
+      objectReference: {fileID: 123094, guid: bf8be820237645347993cd5094421735, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[7]
+      value: 
+      objectReference: {fileID: 133196, guid: a329095279821a0428954ebaf05a9568, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[8]
+      value: 
+      objectReference: {fileID: 141206, guid: 9d49a7d7389175b489f31941b4432150, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[9]
+      value: 
+      objectReference: {fileID: 141206, guid: b269c6a3fb6f1a44c9050c4ee59db84e, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[10]
+      value: 
+      objectReference: {fileID: 141206, guid: c49fba867b6d6be49aa40f87dd479544, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[11]
+      value: 
+      objectReference: {fileID: 126112, guid: 4c7737c296d45834aaa2ea4a5a281d52, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[12]
+      value: 
+      objectReference: {fileID: 126112, guid: b09eec72779b074429686711487093de, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[13]
+      value: 
+      objectReference: {fileID: 126112, guid: 7126b8837be15df46b3ae28d2ab878ce, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[14]
+      value: 
+      objectReference: {fileID: 123094, guid: 42175590dbace814aa41850408ac83bd, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[15]
+      value: 
+      objectReference: {fileID: 123094, guid: b28dcb97d5b97dd4da168335eb60c0ca, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[18]
+      value: 
+      objectReference: {fileID: 172528, guid: 7d938afe689d5cc45824a89320e49a9a, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[19]
+      value: 
+      objectReference: {fileID: 119804, guid: 351aa4721c02a7b41904d6b79f58d88d, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[20]
+      value: 
+      objectReference: {fileID: 119804, guid: 351aa4721c02a7b41904d6b79f58d88d, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[21]
+      value: 
+      objectReference: {fileID: 119804, guid: 351aa4721c02a7b41904d6b79f58d88d, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[22]
+      value: 
+      objectReference: {fileID: 119804, guid: 351aa4721c02a7b41904d6b79f58d88d, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[23]
+      value: 
+      objectReference: {fileID: 119804, guid: 351aa4721c02a7b41904d6b79f58d88d, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[24]
+      value: 
+      objectReference: {fileID: 137162, guid: c5ad9c1ea89f1bd458e201bcc489e2b8, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[25]
+      value: 
+      objectReference: {fileID: 137162, guid: c5ad9c1ea89f1bd458e201bcc489e2b8, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[26]
+      value: 
+      objectReference: {fileID: 137162, guid: c5ad9c1ea89f1bd458e201bcc489e2b8, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[27]
+      value: 
+      objectReference: {fileID: 137162, guid: c5ad9c1ea89f1bd458e201bcc489e2b8, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[28]
+      value: 
+      objectReference: {fileID: 137162, guid: c5ad9c1ea89f1bd458e201bcc489e2b8, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[29]
+      value: 
+      objectReference: {fileID: 137162, guid: c5ad9c1ea89f1bd458e201bcc489e2b8, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony.Array.data[22]
+      value: 
+      objectReference: {fileID: 101660, guid: bc1728ef4a2bc9048a73a0eb92009f99, type: 2}
+    - target: {fileID: 0}
+      propertyPath: mony.Array.data[26]
+      value: 
+      objectReference: {fileID: 101660, guid: 936e47f257c9bc04abdd5552aca23ebf, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[16]
+      value: 
+      objectReference: {fileID: 137162, guid: c5ad9c1ea89f1bd458e201bcc489e2b8, type: 2}
+    - target: {fileID: 0}
+      propertyPath: combos2.Array.data[17]
+      value: 
+      objectReference: {fileID: 137162, guid: c5ad9c1ea89f1bd458e201bcc489e2b8, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 162796}
+  m_IsPrefabParent: 1
